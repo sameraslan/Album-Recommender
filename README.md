@@ -2,7 +2,7 @@
 
 This is an album recommender system using the top charted albums of all time on RateYourMusic.
 
-1. Obtained a list of top 5,0000 albums and their metadata from RateYourMusic and read them into a CSV. The metadata for each album includes release date, primary genre(s), overall rating, number of ratings, and number of reviews.
+1. Obtained a list of top 5,000 albums and their metadata from RateYourMusic and read them into a CSV. The metadata for each album includes release date, primary genre(s), overall rating, number of ratings, and number of reviews.
 
 2. Obtained the audio metrics for every track on each album.
 
