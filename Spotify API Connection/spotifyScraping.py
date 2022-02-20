@@ -12,6 +12,8 @@ artist_uri = '5LhTec3c7dcqBvpLRWbMcf'
 track_uri = 'spotify:track:36apwMphkcaS63LY3JJMPh'
 #album_uri = 'spotify:album:7GOdEIOvr41lvxDK7bvPrI'
 
+all_album_features = np.empty(shape=(500, 13))
+
 df = pd.read_csv("RYMScraper/Scraped Data/Above1kRatings.csv")
 
 #Albums deleted (not in spotify) (index iloc based)
@@ -42,7 +44,7 @@ sp.trace = False
 # find album by name
 #i and j are ranges of rows in df to search for albums
 i = 0
-j = 0
+j = 2
 
 
 # get the first album uri
@@ -73,26 +75,30 @@ for index, row in df.iterrows():
         print(str(i), str(album_title['name']))
         i += 1
 
-# get album tracks and testing to get accurate results
-# Retrieve audio_features for each track
-album = 'Kid A Radiohead'
-results = sp.search(q="album:" + album, type="album")
-album_uri = results['albums']['items'][0]['uri']
-tracks = sp.album_tracks(album_uri)
-count = 0
-track_features = []  # Store features for each track
-for track in tracks['items']:
-    #print(track['name'], track['uri'])
-    track_uri = track['uri']
-    results = sp.audio_features(track_uri)
-    track_features.append(list(results[0].values()))
+        # get album tracks and testing to get accurate results
+        # Retrieve audio_features for each track
+        # album = 'Kid A Radiohead'
+        # results = sp.search(q="album:" + album, type="album")
+        # album_uri = results['albums']['items'][0]['uri']
 
-album_features = np.array(track_features)
+        tracks = sp.album_tracks(album_uri)
+        count = 0
+        track_features = []  # Store features for each track
+        for track in tracks['items']:
+            #print(track['name'], track['uri'])
+            track_uri = track['uri']
+            results = sp.audio_features(track_uri)
+            track_features.append(list(results[0].values()))
 
-album_features = np.delete(album_features, list(range(11, 16)), 1).astype(np.float32)  # Remove non-numerical items and cast to float
-album_features = np.mean(album_features, axis=0)  # Take column wise mean for overall album audio features
-print(album_features)
+        album_features = np.array(track_features)
 
-label_names = np.array(list(results[0].keys())[0:11] + list(results[0].keys())[16:])  # ['danceability', 'energy', 'key', 'loudness',...
-print(label_names)
+        album_features = np.delete(album_features, list(range(11, 16)), 1).astype(np.float32)  # Remove non-numerical items and cast to float
+        album_features = np.mean(album_features, axis=0)  # Take column wise mean for overall album audio features
+        print(album_features)
+        all_album_features = np.concatenate((all_album_features, album_features), axis=1)
 
+        if index == 0:
+            label_names = np.array(list(results[0].keys())[0:11] + list(results[0].keys())[16:])  # ['danceability', 'energy', 'key', 'loudness',...
+            print(label_names)
+
+print(all_album_features)
