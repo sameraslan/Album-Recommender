@@ -18,23 +18,25 @@ def printSimilar(titles, artists, uris, indices):
     albums = []
     recommendedUris = []
     recommendedTitles = []
+    recommendedArtists = []
 
     for i in range(len(similarAlbumsList)):
         albums.append([artists[similarAlbumsList[i]], titles[similarAlbumsList[i]], uris[similarAlbumsList[i]]])
         recommendedUris.append(uris[similarAlbumsList[i]])
         recommendedTitles.append(titles[similarAlbumsList[i]])
+        recommendedArtists.append(artists[similarAlbumsList[i]])
 
     print(tabulate(albums, headers=['Artist', 'Title', 'URI']))
-    visualizeAlbums(recommendedUris, recommendedTitles)
+    visualizeAlbums(recommendedUris, recommendedTitles, recommendedArtists)
 
-def visualizeAlbums(uris, titles):
+def visualizeAlbums(uris, titles, artists):
     urls = []  # List of cover art URLS
 
     for uri in uris:
         result = sp.album(uri)
         urls.append(result['images'][0]['url'])  # Append cover art URL to list of image URLS
 
-    plt.figure(figsize=(15, int(0.625 * len(uris))), facecolor='#ffeba3')
+    plt.figure(figsize=(30, int(.8 * len(uris))), facecolor='#ffeba3')
     columns = len(urls)
 
     for i, url in enumerate(urls):
@@ -45,8 +47,8 @@ def visualizeAlbums(uris, titles):
         plt.xticks([])
         plt.yticks([])
         s = ''
-        #plt.xlabel(s.join(playlist_df['track_name'].values[i].split(' ')[:4]), fontsize=10, fontweight='bold')
-        plt.tight_layout(h_pad=1.2, w_pad=0)
+        plt.xlabel(s.join(artists[i] + ' - ' + titles[i]), fontsize=10, fontweight='bold')
+        plt.tight_layout(h_pad=15, w_pad=15)
         plt.subplots_adjust(wspace=None, hspace=None)
 
     plt.show()
