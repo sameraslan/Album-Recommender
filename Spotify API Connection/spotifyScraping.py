@@ -47,14 +47,14 @@ sp.trace = False
 # find album by name
 #i and j are ranges of rows in df to search for albums
 i = 0
-j = 100
+j = 550
 
 
 # get the first album uri
 df = df.loc[i:j]
 df = df[['Artist', 'Album']]
 
-
+count = 0
 for index, row in df.iterrows():
     album_uri = ''
     #Specifies artist as well by concatinating in order to improve search accuracy of album
@@ -91,7 +91,8 @@ for index, row in df.iterrows():
             #print(track['name'], track['uri'])
             track_uri = track['uri']
             results = sp.audio_features(track_uri)
-            track_features.append(list(results[0].values()))
+            if results[0] != None:
+                track_features.append(list(results[0].values()))
 
         album_features = np.array(track_features)
 
@@ -103,8 +104,10 @@ for index, row in df.iterrows():
         all_album_artists.append(str(row['Artist']))
         all_album_uri.append(album_uri)
 
-        if index == 0:
+        # Only get label names on first iteration of loop
+        if count == 0:
             label_names = np.array(list(results[0].keys())[0:11] + list(results[0].keys())[16:])  # ['danceability', 'energy', 'key', 'loudness',...
+            count += 1
 
 # Add Artist, Title, and URI and convert to Pandas Dataframe
 album_data_dataframe = pd.DataFrame(all_album_features, columns=label_names)
