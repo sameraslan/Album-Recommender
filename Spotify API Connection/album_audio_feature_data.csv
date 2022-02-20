@@ -1,0 +1,4 @@
+,Title,Artist,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature,URI
+0,OK Computer,Radiohead,0.28808334,0.5659167,6.3333335,-9.102416,0.6666667,0.05630834,0.13576259,0.16105278,0.159375,0.29173332,115.45075,268435.5,4.0,spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE
+1,Wish You Were Here,Pink Floyd,0.37359998,0.4098,5.0,-12.6894,0.4,0.03974,0.6028,0.36304,0.38494,0.25904,130.0188,530512.0,3.6,spotify:album:0bCAjiUamIFqKJsekOYuRw
+2,In the Court of the Crimson King,King Crimson,0.340625,0.370475,6.125,-14.873124,0.375,0.0434625,0.29768625,0.327265,0.1491375,0.2794,118.92062,507644.12,3.875,spotify:album:6tVg2Wl9hVKMpHYcAl2V2M

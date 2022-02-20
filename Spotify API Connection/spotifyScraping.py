@@ -47,7 +47,7 @@ sp.trace = False
 # find album by name
 #i and j are ranges of rows in df to search for albums
 i = 0
-j = 2
+j = 100
 
 
 # get the first album uri
@@ -106,9 +106,15 @@ for index, row in df.iterrows():
         if index == 0:
             label_names = np.array(list(results[0].keys())[0:11] + list(results[0].keys())[16:])  # ['danceability', 'energy', 'key', 'loudness',...
 
-
+# Add Artist, Title, and URI and convert to Pandas Dataframe
 album_data_dataframe = pd.DataFrame(all_album_features, columns=label_names)
 album_data_dataframe.insert(0, "Artist", all_album_artists)
 album_data_dataframe.insert(0, "Title", all_album_names)
 album_data_dataframe["URI"] = all_album_uri
 print(album_data_dataframe)
+
+# Finally, write to csv
+export_filename = "album_audio_feature_data"
+path = '/Users/saslan.19/Desktop/Programming/Music Recommendation/Spotify API Connection/'
+album_data_dataframe.to_csv(path + export_filename + ".csv")
+
