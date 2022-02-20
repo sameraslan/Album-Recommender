@@ -12,7 +12,10 @@ artist_uri = '5LhTec3c7dcqBvpLRWbMcf'
 track_uri = 'spotify:track:36apwMphkcaS63LY3JJMPh'
 #album_uri = 'spotify:album:7GOdEIOvr41lvxDK7bvPrI'
 
-all_album_features = np.empty(shape=(500, 13))
+all_album_features = []
+all_album_names = []
+all_album_artists = []
+all_album_uri = []
 
 df = pd.read_csv("RYMScraper/Scraped Data/Above1kRatings.csv")
 
@@ -95,10 +98,17 @@ for index, row in df.iterrows():
         album_features = np.delete(album_features, list(range(11, 16)), 1).astype(np.float32)  # Remove non-numerical items and cast to float
         album_features = np.mean(album_features, axis=0)  # Take column wise mean for overall album audio features
         print(album_features)
-        all_album_features = np.concatenate((all_album_features, album_features), axis=1)
+        all_album_features.append(list(album_features))
+        all_album_names.append(str(row['Album']))
+        all_album_artists.append(str(row['Artist']))
+        all_album_uri.append(album_uri)
 
         if index == 0:
             label_names = np.array(list(results[0].keys())[0:11] + list(results[0].keys())[16:])  # ['danceability', 'energy', 'key', 'loudness',...
-            print(label_names)
 
-print(all_album_features)
+
+album_data_dataframe = pd.DataFrame(all_album_features, columns=label_names)
+album_data_dataframe.insert(0, "Artist", all_album_artists)
+album_data_dataframe.insert(0, "Title", all_album_names)
+album_data_dataframe["URI"] = all_album_uri
+print(album_data_dataframe)
