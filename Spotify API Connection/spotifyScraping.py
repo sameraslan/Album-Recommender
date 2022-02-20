@@ -88,8 +88,11 @@ for track in tracks['items']:
     track_features.append(list(results[0].values()))
 
 album_features = np.array(track_features)
+
+album_features = np.delete(album_features, list(range(11, 16)), 1).astype(np.float32)  # Remove non-numerical items and cast to float
+album_features = np.mean(album_features, axis=0)  # Take column wise mean for overall album audio features
 print(album_features)
 
-
-label_names = results[0].keys()  # ['danceability', 'energy', 'key', 'loudness',...
+label_names = np.array(list(results[0].keys())[0:11] + list(results[0].keys())[16:])  # ['danceability', 'energy', 'key', 'loudness',...
 print(label_names)
+
