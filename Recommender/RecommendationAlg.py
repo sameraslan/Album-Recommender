@@ -14,31 +14,31 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # Prints the 5 most similar albums
 def printSimilar(titles, artists, uris, indices):
-    similarAlbumsList = list(indices[90])
-    print(distances[1:5])
+    similarAlbumsList = list(indices[90])  # Specified Album to find similar albums to
     albums = []
     recommendedUris = []
+    recommendedTitles = []
 
     for i in range(len(similarAlbumsList)):
         albums.append([artists[similarAlbumsList[i]], titles[similarAlbumsList[i]], uris[similarAlbumsList[i]]])
         recommendedUris.append(uris[similarAlbumsList[i]])
+        recommendedTitles.append(titles[similarAlbumsList[i]])
 
     print(tabulate(albums, headers=['Artist', 'Title', 'URI']))
-    visualizeAlbums(recommendedUris)
+    visualizeAlbums(recommendedUris, recommendedTitles)
 
-def visualizeAlbums(uris):
+def visualizeAlbums(uris, titles):
     urls = []  # List of cover art URLS
 
     for uri in uris:
-        print(uri)
         result = sp.album(uri)
         urls.append(result['images'][0]['url'])  # Append cover art URL to list of image URLS
 
-    plt.figure(figsize=(15, int(0.625 * len(uris))), facecolor='#8cfc03')
+    plt.figure(figsize=(15, int(0.625 * len(uris))), facecolor='#ffeba3')
     columns = len(urls)
 
     for i, url in enumerate(urls):
-        plt.subplot(int(len(urls) / columns + 1), columns, i + 1)
+        plt.subplot(int(len(urls) / columns), columns, i + 1)
 
         image = io.imread(url)
         plt.imshow(image)
@@ -46,7 +46,7 @@ def visualizeAlbums(uris):
         plt.yticks([])
         s = ''
         #plt.xlabel(s.join(playlist_df['track_name'].values[i].split(' ')[:4]), fontsize=10, fontweight='bold')
-        plt.tight_layout(h_pad=0.8, w_pad=0)
+        plt.tight_layout(h_pad=1.2, w_pad=0)
         plt.subplots_adjust(wspace=None, hspace=None)
 
     plt.show()
