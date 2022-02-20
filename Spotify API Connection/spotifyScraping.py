@@ -1,6 +1,7 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
+import numpy as np
 
 cid = 'c480b13ef81c4e6aa0ab0119636eabe5'
 secret = '50826f24c12044448b906de50ac74742'
@@ -40,8 +41,9 @@ sp.trace = False
 
 # find album by name
 #i and j are ranges of rows in df to search for albums
-i = 1
-j = 500
+i = 0
+j = 0
+
 
 # get the first album uri
 df = df.loc[i:j]
@@ -72,12 +74,22 @@ for index, row in df.iterrows():
         i += 1
 
 # get album tracks and testing to get accurate results
+# Retrieve audio_features for each track
 album = 'Kid A Radiohead'
 results = sp.search(q="album:" + album, type="album")
 album_uri = results['albums']['items'][0]['uri']
 tracks = sp.album_tracks(album_uri)
+count = 0
+track_features = []  # Store features for each track
 for track in tracks['items']:
-    print(track['name'])
+    #print(track['name'], track['uri'])
+    track_uri = track['uri']
+    results = sp.audio_features(track_uri)
+    track_features.append(list(results[0].values()))
 
-results = sp.audio_features(album_uri)
-print(results)
+album_features = np.array(track_features)
+print(album_features)
+
+
+label_names = results[0].keys()  # ['danceability', 'energy', 'key', 'loudness',...
+print(label_names)
