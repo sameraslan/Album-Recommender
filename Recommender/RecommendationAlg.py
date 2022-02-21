@@ -67,7 +67,9 @@ def main(argv):
         albumInput = input("Album title: ")
         searchResult = albumsDataframe[albumsDataframe['Title'].str.contains(albumInput, na=False)]
         emptyIndex = searchResult.empty
-        userAlbumIndex = searchResult.index.tolist()[0]
+
+        if not emptyIndex:
+            userAlbumIndex = searchResult.index.tolist()[0]
 
     # Normalize columns with un-normalized values
     albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']] = (albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']] - albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].min()) / (albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].max() - albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].min())
