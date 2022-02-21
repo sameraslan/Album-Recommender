@@ -10,8 +10,9 @@ This is an album recommender system using the top charted albums of all time on 
 
 3. Developed a K-Nearest-Neighbours model (using SKlearn). The general idea can be thought of simplest in 2-dimensions. For example, x = Energy (a spotify audio track metric) and y = Danceability (another spotify audio track metric). Each album on the graph is defined as a point, with some Energy x and some Danceability y. In an ideal model, albums on this x,y graph would be clustered by genre (ex. Jazz albums close to one another, Indie-Rock, Soul, etc.). In reality, the model has a non-visualizable number of dimensions, one for each feature. Albums are points in some n-dimensional space.
 
-For example, inputting the album Songs in the Key of Life, the following 5 albums to its right are the most recommended based on the model I developed (most to least similar from left to right).
-![Screen Shot 2022-02-20 at 9 36 47 PM](https://user-images.githubusercontent.com/82460915/154879952-d12fc950-c0d8-4cd5-ab3c-e1305cdb2624.jpg)
+For example, inputting the album Revoler by The Beatles, the following 5 albums to its right are the most recommended based on the model I developed (most to least similar from left to right).
+![Screen Shot 2022-02-20 at 9 43 04 PM](https://user-images.githubusercontent.com/82460915/154880486-335e4139-bd6d-4d45-83e9-dd8aac41df24.jpg)
+
 
 Or Madvillainy by Madvillain
 ![Screen Shot 2022-02-20 at 9 38 13 PM](https://user-images.githubusercontent.com/82460915/154880035-b1967fc0-a911-4393-85d9-306f4498a907.jpg)
