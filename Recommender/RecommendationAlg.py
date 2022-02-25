@@ -133,6 +133,8 @@ def main(argv):
 
     recommend(newAlbumDataframe)
 
+    # Next step is to have a weighting of descriptors for each album by bins potentially or just by ordering
+
 
 
 if __name__ == "__main__":
