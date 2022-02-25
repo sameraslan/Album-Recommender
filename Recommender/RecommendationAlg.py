@@ -56,10 +56,7 @@ def visualizeAlbums(uris, titles, artists):
     plt.show()
 
 
-def main(argv):
-    # Using unsupervised KNN to get similar albums (euclidean distance)
-    albumsDataframe = pd.read_csv('Spotify API Connection/album_audio_feature_data.csv')
-
+def recommend(albumsDataframe):
     # Get user album index
     userAlbumIndex = None
     emptyIndex = True
@@ -72,19 +69,45 @@ def main(argv):
             userAlbumIndex = searchResult.index.tolist()[0]
 
     # Normalize columns with un-normalized values
-    albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']] = (albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']] - albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].min()) / (albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].max() - albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].min())
+    albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']] = (albumsDataframe[
+                                                                                          ['key', 'loudness', 'tempo',
+                                                                                           'duration_ms',
+                                                                                           'time_signature']] -
+                                                                                      albumsDataframe[
+                                                                                          ['key', 'loudness', 'tempo',
+                                                                                           'duration_ms',
+                                                                                           'time_signature']].min()) / (
+                                                                                                 albumsDataframe[
+                                                                                                     ['key', 'loudness',
+                                                                                                      'tempo',
+                                                                                                      'duration_ms',
+                                                                                                      'time_signature']].max() -
+                                                                                                 albumsDataframe[
+                                                                                                     ['key', 'loudness',
+                                                                                                      'tempo',
+                                                                                                      'duration_ms',
+                                                                                                      'time_signature']].min())
 
-    #albumDescriptors[[]] =
+    # albumDescriptors[[]] =
 
     # Selecting audio features for KNN
-    albumValues = albumsDataframe[['danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms', 'time_signature']]
+    #albumValues = albumsDataframe[
+        # ['danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness',
+        #  'liveness', 'valence', 'tempo', 'duration_ms', 'time_signature']]
+
+    albumValues = albumsDataframe.drop(['Title', 'Artist', 'URI', 'Descriptor Count', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms', 'time_signature'], axis = 1)
+    albumValuesCols = albumValues.columns.tolist()
+    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / 5)  # Weighting of descriptors (higher we divide by, less weight)
+
+    albumValues = albumsDataframe.drop(['Unnamed: 0', 'Title', 'Artist', 'URI', 'Descriptor Count'], axis=1)
+    print(albumValues)
 
     # energy, key, mode, speechiness, liveness, tempo, duration_ms, time_signature important
     # acousticness, instrumentalness, valence, loudness maybe important
     # acousticness, instrumentalness,  might work
 
     # Next step is to improve accuracy (potentially use genres)
-    #albumValues = albumsDataframe[['loudness', 'energy', 'key', 'mode', 'speechiness', 'liveness', 'tempo', 'duration_ms', 'time_signature']]
+    # albumValues = albumsDataframe[['loudness', 'energy', 'key', 'mode', 'speechiness', 'liveness', 'tempo', 'duration_ms', 'time_signature']]
 
     albumTitles = list(albumsDataframe['Title'])  # List of album titles
     albumArtists = list(albumsDataframe['Artist'])  # List of album artists
@@ -95,6 +118,22 @@ def main(argv):
     distances, indices = similarAlbums.kneighbors(albumValues)
 
     printSimilar(albumTitles, albumArtists, albumURIs, indices, userAlbumIndex)  # Print out similar albums
+
+
+def main(argv):
+    # Using unsupervised KNN to get similar albums (euclidean distance)
+    albumsDataframe = pd.read_csv('Spotify API Connection/album_audio_feature_data.csv')
+
+    albumsDescriptorData = pd.read_pickle("Recommender/all_albums_descriptor_data.pkl")
+    albumsDescriptorData.reset_index(drop=True, inplace=True)
+
+    newAlbumDataframe = pd.concat([albumsDataframe, albumsDescriptorData], axis=1, join="inner")
+    #print(newAlbumDataframe)
+    #newAlbumDataframe.to_csv("Recommender/newAlbumData.csv")
+
+    recommend(newAlbumDataframe)
+
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
