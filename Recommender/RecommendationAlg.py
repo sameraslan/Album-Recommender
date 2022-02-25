@@ -74,6 +74,8 @@ def main(argv):
     # Normalize columns with un-normalized values
     albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']] = (albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']] - albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].min()) / (albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].max() - albumsDataframe[['key', 'loudness', 'tempo', 'duration_ms', 'time_signature']].min())
 
+    #albumDescriptors[[]] =
+
     # Selecting audio features for KNN
     albumValues = albumsDataframe[['danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms', 'time_signature']]
 
@@ -82,7 +84,7 @@ def main(argv):
     # acousticness, instrumentalness,  might work
 
     # Next step is to improve accuracy (potentially use genres)
-    albumValues = albumsDataframe[['loudness', 'energy', 'key', 'mode', 'speechiness', 'liveness', 'tempo', 'duration_ms', 'time_signature']]
+    #albumValues = albumsDataframe[['loudness', 'energy', 'key', 'mode', 'speechiness', 'liveness', 'tempo', 'duration_ms', 'time_signature']]
 
     albumTitles = list(albumsDataframe['Title'])  # List of album titles
     albumArtists = list(albumsDataframe['Artist'])  # List of album artists
