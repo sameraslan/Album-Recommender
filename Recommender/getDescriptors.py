@@ -24,12 +24,12 @@ albumsDataframe = pd.read_pickle("Recommender/albumsDataframe.pkl")
 # albumsDataframe['Artist'] = albumsDataframe['Artist'].replace(['Zappa'],'Zappa Mothers')
 # albumsDataframe['Artist'] = albumsDataframe['Artist'].replace(['Various Artists'],'岡部啓一-帆足圭吾')
 # albumsDataframe['Title'] = albumsDataframe['Title'].replace(['NieR:Automata'],'NieR_Automata')
-albumsDataframe['Title'] = albumsDataframe['Title'].replace(['Vol. 4'], 'Vol 4')
-albumsDataframe['Artist'] = albumsDataframe['Artist'].replace(['アトラスサウンドチーム'],'目黒将司')
-albumsDataframe['Title'] = albumsDataframe['Title'].replace([':Blues'], '_Blues')
+# albumsDataframe['Title'] = albumsDataframe['Title'].replace(['Vol. 4'], 'Vol 4')
+# albumsDataframe['Artist'] = albumsDataframe['Artist'].replace(['アトラスサウンドチーム'],'目黒将司')
+# albumsDataframe['Title'] = albumsDataframe['Title'].replace([':Blues'], '_Blues')
 
 
-albumsDataframe.to_pickle("albumsDataframe.pkl")
+#albumsDataframe.to_pickle("Recommender/albumsDataframe.pkl")
 
 
 

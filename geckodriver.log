@@ -3315,3 +3315,15 @@ console.error: BackgroundUpdate:
 1645750506290	Marionette	INFO	Listening on port 55282
 1645750506378	Marionette	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: Failed to lock ExternalImage for extId:21474837306
+1645751017709	geckodriver	INFO	Listening on 127.0.0.1:55596
+1645751017734	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileLkcqH6"
+*** You are running in headless mode.
+1645751018445	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileLkcqH6/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645751020961	Marionette	INFO	Listening on port 55605
+1645751021058	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7522, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 7522, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
