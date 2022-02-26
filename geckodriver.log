@@ -7367,3 +7367,1710 @@ JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eva
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1645900208309	geckodriver	INFO	Listening on 127.0.0.1:52728
+1645900209327	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilezpzGbt"
+*** You are running in headless mode.
+1645900209929	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilezpzGbt/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900211341	Marionette	INFO	Listening on port 52735
+1645900211419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645900221846	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645900260637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645900260637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645900270745	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645900279390	Marionette	INFO	Stopped listening on port 52735
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645900279821	geckodriver	INFO	Listening on 127.0.0.1:52976
+1645900280843	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileMvvxeq"
+*** You are running in headless mode.
+1645900281191	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileMvvxeq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900282413	Marionette	INFO	Listening on port 52983
+1645900282525	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645900387939	geckodriver	INFO	Listening on 127.0.0.1:53144
+1645900387945	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilePgRBTL"
+*** You are running in headless mode.
+1645900388229	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilePgRBTL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900389607	Marionette	INFO	Listening on port 53149
+1645900389720	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645900467109	Marionette	INFO	Stopped listening on port 53149
+1645900467493	geckodriver	INFO	Listening on 127.0.0.1:53341
+1645900468516	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileXUufsz"
+*** You are running in headless mode.
+1645900468838	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileXUufsz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900470029	Marionette	INFO	Listening on port 53348
+1645900470075	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645900500058	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645900544049	Marionette	INFO	Stopped listening on port 53348
+1645900544443	geckodriver	INFO	Listening on 127.0.0.1:53577
+1645900545465	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilem8o3Xm"
+*** You are running in headless mode.
+1645900545807	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilem8o3Xm/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900547044	Marionette	INFO	Listening on port 53584
+1645900547146	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645900626608	Marionette	INFO	Stopped listening on port 53584
+1645900627778	geckodriver	INFO	Listening on 127.0.0.1:53802
+1645900628800	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileATjFsr"
+*** You are running in headless mode.
+1645900629113	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileATjFsr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900630314	Marionette	INFO	Listening on port 53809
+1645900630377	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+1645900716675	Marionette	INFO	Stopped listening on port 53809
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645900717088	geckodriver	INFO	Listening on 127.0.0.1:54045
+1645900718114	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileVKwlDQ"
+*** You are running in headless mode.
+1645900718442	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileVKwlDQ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900719932	Marionette	INFO	Listening on port 54052
+1645900720054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645900830332	Marionette	INFO	Stopped listening on port 54052
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645900830748	geckodriver	INFO	Listening on 127.0.0.1:54309
+1645900831758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilejnYU72"
+*** You are running in headless mode.
+1645900832092	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilejnYU72/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900833326	Marionette	INFO	Listening on port 54316
+1645900833426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645900893550	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645900923707	Marionette	INFO	Stopped listening on port 54316
+1645900924130	geckodriver	INFO	Listening on 127.0.0.1:54604
+1645900925156	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilejWXfpc"
+*** You are running in headless mode.
+1645900925499	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilejWXfpc/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645900926655	Marionette	INFO	Listening on port 54612
+1645900926735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 210: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 210: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645900997731	Marionette	INFO	Stopped listening on port 54612
+1645900998134	geckodriver	INFO	Listening on 127.0.0.1:54832
+1645900999160	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileOrqA6p"
+*** You are running in headless mode.
+1645900999517	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileOrqA6p/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901000755	Marionette	INFO	Listening on port 54839
+1645901000838	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3952 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645901072282	Marionette	INFO	Stopped listening on port 54839
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645901072703	geckodriver	INFO	Listening on 127.0.0.1:55078
+1645901073725	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileB5H8xb"
+*** You are running in headless mode.
+1645901074069	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileB5H8xb/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901075417	Marionette	INFO	Listening on port 55085
+1645901075499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+1645901120208	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645901166326	Marionette	INFO	Stopped listening on port 55085
+1645901166718	geckodriver	INFO	Listening on 127.0.0.1:55343
+1645901167745	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilecI54Ie"
+*** You are running in headless mode.
+1645901168074	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilecI54Ie/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901169250	Marionette	INFO	Listening on port 55350
+1645901169309	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j7hE3yxA75Jh70ErwfbAXbZ96cK9V2UfbDPjrUCF35o.js line 1 > eval line 5190 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3236 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2627 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3454 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2957 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 4554 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6391 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3496 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2793 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 2854 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3797 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3499 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1645901387292	geckodriver	INFO	Listening on 127.0.0.1:55686
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645901388306	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileman2Ib"
+*** You are running in headless mode.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645901388672	Marionette	INFO	Marionette enabled
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2154 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1823 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileman2Ib/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901390050	Marionette	INFO	Listening on port 55693
+1645901390088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645901424053	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1372 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+** Unknown exception behavior: 0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645901440311	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 0
+1645901461779	Marionette	INFO	Stopped listening on port 55693
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645901462179	geckodriver	INFO	Listening on 127.0.0.1:55963
+1645901463208	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilewN2dHS"
+*** You are running in headless mode.
+1645901463533	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilewN2dHS/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901464775	Marionette	INFO	Listening on port 55970
+1645901464796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1339 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6985 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645901526880	Marionette	INFO	Stopped listening on port 55970
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645901527275	geckodriver	INFO	Listening on 127.0.0.1:56212
+1645901528301	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileTpzLqt"
+*** You are running in headless mode.
+1645901528629	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileTpzLqt/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901529857	Marionette	INFO	Listening on port 56219
+1645901529973	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645901595372	Marionette	INFO	Stopped listening on port 56219
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645901595759	geckodriver	INFO	Listening on 127.0.0.1:56402
+1645901596785	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile0aonFb"
+*** You are running in headless mode.
+1645901597118	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile0aonFb/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901598408	Marionette	INFO	Listening on port 56409
+1645901598467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+1645901664063	Marionette	INFO	Stopped listening on port 56409
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645901664440	geckodriver	INFO	Listening on 127.0.0.1:56593
+1645901665464	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileuHuk5Y"
+*** You are running in headless mode.
+1645901665791	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileuHuk5Y/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901667023	Marionette	INFO	Listening on port 56600
+1645901667044	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645901718891	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 3500 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1645901738408	Marionette	INFO	Stopped listening on port 56600
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645901738814	geckodriver	INFO	Listening on 127.0.0.1:56828
+1645901739842	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilel4u7oJ"
+*** You are running in headless mode.
+1645901740180	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilel4u7oJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901741459	Marionette	INFO	Listening on port 56835
+1645901741528	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645901775763	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1810 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645901820860	Marionette	INFO	Stopped listening on port 56835
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645901821255	geckodriver	INFO	Listening on 127.0.0.1:57056
+1645901822277	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileeV9Wze"
+*** You are running in headless mode.
+1645901822623	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileeV9Wze/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901823905	Marionette	INFO	Listening on port 57063
+1645901823954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2486 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1645901897039	Marionette	INFO	Stopped listening on port 57063
+1645901897468	geckodriver	INFO	Listening on 127.0.0.1:57296
+1645901898488	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileeokI0X"
+*** You are running in headless mode.
+1645901898873	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileeokI0X/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901900162	Marionette	INFO	Listening on port 57303
+1645901900262	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645901981937	Marionette	INFO	Stopped listening on port 57303
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645901982339	geckodriver	INFO	Listening on 127.0.0.1:57540
+1645901983365	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileq27CfI"
+*** You are running in headless mode.
+1645901983718	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileq27CfI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645901984903	Marionette	INFO	Listening on port 57547
+1645901984947	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+1645902091584	geckodriver	INFO	Listening on 127.0.0.1:57676
+1645902092609	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofiler4h0HM"
+*** You are running in headless mode.
+1645902092946	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofiler4h0HM/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645902094288	Marionette	INFO	Listening on port 57683
+1645902094404	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645902113450	geckodriver	INFO	Listening on 127.0.0.1:57749
+1645902113458	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile1M1OGH"
+*** You are running in headless mode.
+1645902113793	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile1M1OGH/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645902115023	Marionette	INFO	Listening on port 57754
+1645902115122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j7hE3yxA75Jh70ErwfbAXbZ96cK9V2UfbDPjrUCF35o.js line 1 > eval line 6889 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 4049 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2219 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645902162530	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645902188034	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645902193484	Marionette	INFO	Stopped listening on port 57754
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645902193911	geckodriver	INFO	Listening on 127.0.0.1:58014
+1645902194939	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileDZrQs6"
+*** You are running in headless mode.
+1645902195262	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileDZrQs6/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645902196475	Marionette	INFO	Listening on port 58021
+1645902196513	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645902264264	Marionette	INFO	Stopped listening on port 58021
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645902264661	geckodriver	INFO	Listening on 127.0.0.1:58231
+1645902265684	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileII1sd3"
+*** You are running in headless mode.
+1645902266011	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileII1sd3/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645902267268	Marionette	INFO	Listening on port 58238
+1645902267360	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645902337749	Marionette	INFO	Stopped listening on port 58238
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645902338180	geckodriver	INFO	Listening on 127.0.0.1:58461
+1645902339208	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileoUQDVJ"
+*** You are running in headless mode.
+1645902339528	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileoUQDVJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645902340753	Marionette	INFO	Listening on port 58468
+1645902340791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nqw9n8Q7ZgUQXaeEyqlQgfSoiWvYVLzKil4oLL1-OrQ.js line 1 > eval line 2353 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 4599 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+1645902414558	Marionette	INFO	Stopped listening on port 58468
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645902414955	geckodriver	INFO	Listening on 127.0.0.1:58724
+1645902415970	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilejiuCmL"
+*** You are running in headless mode.
+1645902416299	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilejiuCmL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645902417563	Marionette	INFO	Listening on port 58731
+1645902417682	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645902431415	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j7hE3yxA75Jh70ErwfbAXbZ96cK9V2UfbDPjrUCF35o.js line 1 > eval line 6917 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2466 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3543 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+** Unknown exception behavior: 0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645903282845	geckodriver	INFO	Listening on 127.0.0.1:59213
+1645903283867	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile8MkHau"
+*** You are running in headless mode.
+1645903284222	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile8MkHau/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903285570	Marionette	INFO	Listening on port 59220
+1645903285652	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645903290756	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645903334934	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645903334935	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645903334935	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645903355598	Marionette	INFO	Stopped listening on port 59220
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645903356107	geckodriver	INFO	Listening on 127.0.0.1:59486
+1645903357140	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileCs8fDv"
+*** You are running in headless mode.
+1645903357472	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileCs8fDv/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903358799	Marionette	INFO	Listening on port 59493
+1645903358910	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645903428425	Marionette	INFO	Stopped listening on port 59493
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645903428857	geckodriver	INFO	Listening on 127.0.0.1:59732
+1645903429884	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile1RINp0"
+*** You are running in headless mode.
+1645903430246	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile1RINp0/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903431500	Marionette	INFO	Listening on port 59740
+1645903431562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645903498403	Marionette	INFO	Stopped listening on port 59740
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645903498816	geckodriver	INFO	Listening on 127.0.0.1:59961
+1645903499835	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileyIaRVL"
+*** You are running in headless mode.
+1645903500197	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileyIaRVL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903501498	Marionette	INFO	Listening on port 59970
+1645903501613	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+1645903578511	Marionette	INFO	Stopped listening on port 59970
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645903578903	geckodriver	INFO	Listening on 127.0.0.1:60183
+1645903579931	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileJ579lE"
+*** You are running in headless mode.
+1645903580250	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileJ579lE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903581566	Marionette	INFO	Listening on port 60194
+1645903581596	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3813 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: 0
+1645903650134	Marionette	INFO	Stopped listening on port 60194
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645903650545	geckodriver	INFO	Listening on 127.0.0.1:60461
+1645903651566	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile7EAavi"
+*** You are running in headless mode.
+1645903651889	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile7EAavi/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903653122	Marionette	INFO	Listening on port 60468
+1645903653229	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 210: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 286: ReferenceError: Jv is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645903728052	Marionette	INFO	Stopped listening on port 60468
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645903728437	geckodriver	INFO	Listening on 127.0.0.1:60685
+1645903729454	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileHXjLsA"
+*** You are running in headless mode.
+1645903729779	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileHXjLsA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903731050	Marionette	INFO	Listening on port 60693
+1645903731133	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+1645903810241	Marionette	INFO	Stopped listening on port 60693
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645903810627	geckodriver	INFO	Listening on 127.0.0.1:60935
+1645903811654	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilea2yPEC"
+*** You are running in headless mode.
+1645903811991	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilea2yPEC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903813301	Marionette	INFO	Listening on port 60942
+1645903813330	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+1645903897846	Marionette	INFO	Stopped listening on port 60942
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645903898358	geckodriver	INFO	Listening on 127.0.0.1:61121
+1645903899381	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile8y1Htf"
+*** You are running in headless mode.
+1645903899694	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile8y1Htf/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645903900772	Marionette	INFO	Listening on port 61128
+1645903900847	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645903997653	Marionette	INFO	Stopped listening on port 61128
+1645903998078	geckodriver	INFO	Listening on 127.0.0.1:61301
+1645903999100	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileGk8HtL"
+*** You are running in headless mode.
+1645903999428	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileGk8HtL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904000583	Marionette	INFO	Listening on port 61308
+1645904000678	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 3133 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 4916 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 1372 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 1390 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 6352 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 2144 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-tTB93UFC5vepM&moatClientLevel2=qfm&moatClientLevel3=e1b28476-3a00-4e24-b032-1c5f71aba858&moatClientLevel4=9bfeca0f-a435-43a2-9a45-860ddacd3453&uid=jkZSh_5BLoWWQSaE-Fgi9vkxO_L-RyOeiTclg_0wL_D4QyGKedUpxg==, line 248: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-tTB93UFC5vepM&moatClientLevel2=qfm&moatClientLevel3=e1b28476-3a00-4e24-b032-1c5f71aba858&moatClientLevel4=9bfeca0f-a435-43a2-9a45-860ddacd3453&uid=jkZSh_5BLoWWQSaE-Fgi9vkxO_L-RyOeiTclg_0wL_D4QyGKedUpxg==, line 248: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 708 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 2128 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 4500 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1645904165102	geckodriver	INFO	Listening on 127.0.0.1:61720
+1645904166107	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileXFGn0h"
+*** You are running in headless mode.
+1645904166464	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileXFGn0h/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904167728	Marionette	INFO	Listening on port 61727
+1645904167775	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 5908 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 4157 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645904209015	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645904211302	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 2792 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 481 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+1645904254515	Marionette	INFO	Stopped listening on port 61727
+1645904254933	geckodriver	INFO	Listening on 127.0.0.1:61973
+1645904255942	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile7AqVgx"
+*** You are running in headless mode.
+1645904256293	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile7AqVgx/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904257565	Marionette	INFO	Listening on port 61984
+1645904257611	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 3579 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 6759 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 3790 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+1645904275834	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 3086 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 7022 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 5577 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 5176 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1645904344313	Marionette	INFO	Stopped listening on port 61984
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645904344751	geckodriver	INFO	Listening on 127.0.0.1:62203
+1645904345778	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileR0wjbV"
+*** You are running in headless mode.
+1645904346118	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileR0wjbV/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904347347	Marionette	INFO	Listening on port 62211
+1645904347468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 4996 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 4308 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 210: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 210: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 148 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6850 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645904428394	Marionette	INFO	Stopped listening on port 62211
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645904428808	geckodriver	INFO	Listening on 127.0.0.1:62472
+1645904429824	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileUKkceA"
+*** You are running in headless mode.
+1645904430192	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileUKkceA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904431725	Marionette	INFO	Listening on port 62479
+1645904431814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 5748 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3790 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 5841 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 6971 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: 0
+1645904512086	Marionette	INFO	Stopped listening on port 62479
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645904512507	geckodriver	INFO	Listening on 127.0.0.1:62783
+1645904513525	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilecvnVZl"
+*** You are running in headless mode.
+1645904513895	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilecvnVZl/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904515174	Marionette	INFO	Listening on port 62790
+1645904515212	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 4366 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3800 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1645904535854	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 583 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 7297 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 4748 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: 0
+1645904584480	Marionette	INFO	Stopped listening on port 62790
+1645904584943	geckodriver	INFO	Listening on 127.0.0.1:63066
+1645904585953	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilea70WpT"
+*** You are running in headless mode.
+1645904586298	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilea70WpT/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904587730	Marionette	INFO	Listening on port 63073
+1645904587844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645904660188	Marionette	INFO	Stopped listening on port 63073
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645904660665	geckodriver	INFO	Listening on 127.0.0.1:63323
+1645904661671	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile5020mk"
+*** You are running in headless mode.
+1645904662022	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile5020mk/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904663299	Marionette	INFO	Listening on port 63331
+1645904663335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645904735725	Marionette	INFO	Stopped listening on port 63331
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645904736127	geckodriver	INFO	Listening on 127.0.0.1:63539
+1645904737148	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilebbnATw"
+*** You are running in headless mode.
+1645904737478	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilebbnATw/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904738811	Marionette	INFO	Listening on port 63546
+1645904738827	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645904812590	Marionette	INFO	Stopped listening on port 63546
+1645904813003	geckodriver	INFO	Listening on 127.0.0.1:63770
+1645904814029	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilexjqjMo"
+*** You are running in headless mode.
+1645904814348	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilexjqjMo/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904815710	Marionette	INFO	Listening on port 63777
+1645904815741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: MutationObserver.observe: Argument 1 is not an object.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645904878589	Marionette	INFO	Stopped listening on port 63777
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645904878972	geckodriver	INFO	Listening on 127.0.0.1:63981
+1645904879997	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileCKWSfk"
+*** You are running in headless mode.
+1645904880319	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileCKWSfk/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904881671	Marionette	INFO	Listening on port 63988
+1645904881706	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 2605 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 1388 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645904944849	Marionette	INFO	Stopped listening on port 63988
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645904945262	geckodriver	INFO	Listening on 127.0.0.1:64219
+1645904946286	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileAr8hKr"
+*** You are running in headless mode.
+1645904946624	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileAr8hKr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645904947859	Marionette	INFO	Listening on port 64226
+1645904947904	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645905009191	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645905017015	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645905025183	Marionette	INFO	Stopped listening on port 64226
+1645905025588	geckodriver	INFO	Listening on 127.0.0.1:64475
+1645905026601	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileBUN9VO"
+*** You are running in headless mode.
+1645905026929	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileBUN9VO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645905028223	Marionette	INFO	Listening on port 64482
+1645905028286	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 4266 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6968 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1070 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645905112052	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645905117227	Marionette	INFO	Stopped listening on port 64482
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645905117647	geckodriver	INFO	Listening on 127.0.0.1:64818
+1645905118654	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilePTyGsZ"
+*** You are running in headless mode.
+1645905119027	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilePTyGsZ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645905120247	Marionette	INFO	Listening on port 64826
+1645905120335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: , line 0: uncaught exception: 0
+1645905147290	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+1645905188016	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645905194875	Marionette	INFO	Stopped listening on port 64826
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645905195298	geckodriver	INFO	Listening on 127.0.0.1:65079
+1645905196320	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileSqRPjS"
+*** You are running in headless mode.
+1645905196666	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileSqRPjS/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645905198019	Marionette	INFO	Listening on port 65086
+1645905198110	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1146 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1591 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 250 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6241 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 7565 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1645905317731	geckodriver	INFO	Listening on 127.0.0.1:65495
+1645905318743	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileKpZMAX"
+*** You are running in headless mode.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645905319094	Marionette	INFO	Marionette enabled
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6137 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1623 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileKpZMAX/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645905320379	Marionette	INFO	Listening on port 65502
+1645905320437	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 2533 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 4995 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645905391219	Marionette	INFO	Stopped listening on port 65502
+1645905391646	geckodriver	INFO	Listening on 127.0.0.1:49399
+1645905392713	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileB40NEu"
+*** You are running in headless mode.
+1645905393076	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileB40NEu/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645905394390	Marionette	INFO	Listening on port 49406
+1645905394489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1867 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 369 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+1645905431152	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 4555 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 7789 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 66 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 5033 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 7206 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645905488845	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645905491752	Marionette	INFO	Stopped listening on port 49406
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645905492204	geckodriver	INFO	Listening on 127.0.0.1:49709
+1645905493214	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileH6ovPx"
+*** You are running in headless mode.
+1645905493559	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileH6ovPx/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645905494847	Marionette	INFO	Listening on port 49716
+1645905494893	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6627 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2416 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 1998 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645905551320	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6915 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645905576394	Marionette	INFO	Stopped listening on port 49716
+1645905576811	geckodriver	INFO	Listening on 127.0.0.1:49976
+1645905577836	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileCNbPwg"
+*** You are running in headless mode.
+1645905578184	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileCNbPwg/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645905579471	Marionette	INFO	Listening on port 49983
+1645905579513	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 1542 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6375 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2681 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 3153 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 7273 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1645906706435	geckodriver	INFO	Listening on 127.0.0.1:50562
+1645906707466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileqWsOsX"
+*** You are running in headless mode.
+1645906708015	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileqWsOsX/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645906709569	Marionette	INFO	Listening on port 50569
+1645906709664	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645906771191	Marionette	INFO	Stopped listening on port 50569
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645906771640	geckodriver	INFO	Listening on 127.0.0.1:50798
+1645906772661	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileXRzC6U"
+*** You are running in headless mode.
+1645906773037	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileXRzC6U/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645906774431	Marionette	INFO	Listening on port 50805
+1645906774535	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645906846994	Marionette	INFO	Stopped listening on port 50805
+1645906847451	geckodriver	INFO	Listening on 127.0.0.1:51051
+1645906848459	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofiletUwyk7"
+*** You are running in headless mode.
+1645906848824	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofiletUwyk7/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645906850181	Marionette	INFO	Listening on port 51058
+1645906850227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 438 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 3524 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 2757 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645906923445	Marionette	INFO	Stopped listening on port 51058
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645906923956	geckodriver	INFO	Listening on 127.0.0.1:51318
+1645906924971	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileWnD5kR"
+*** You are running in headless mode.
+1645906925325	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileWnD5kR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645906926668	Marionette	INFO	Listening on port 51326
+1645906926746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+1645907029107	Marionette	INFO	Stopped listening on port 51326
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645907029534	geckodriver	INFO	Listening on 127.0.0.1:51657
+1645907030538	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileWIQGBE"
+*** You are running in headless mode.
+1645907030888	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileWIQGBE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645907032284	Marionette	INFO	Listening on port 51664
+1645907032317	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 1840 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6218 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 4464 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 7026 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 7733 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 5270 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645907099017	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 7719 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 6637 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645907123099	Marionette	INFO	Stopped listening on port 51664
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645907123553	geckodriver	INFO	Listening on 127.0.0.1:51963
+1645907124562	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofiletHVYij"
+*** You are running in headless mode.
+1645907124930	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofiletHVYij/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645907126178	Marionette	INFO	Listening on port 51970
+1645907126239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 15: TypeError: R is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645907218552	Marionette	INFO	Stopped listening on port 51970
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645907218972	geckodriver	INFO	Listening on 127.0.0.1:52189
+1645907219978	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile6f66ks"
+*** You are running in headless mode.
+1645907220335	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile6f66ks/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645907221627	Marionette	INFO	Listening on port 52196
+1645907221758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645907258915	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j7hE3yxA75Jh70ErwfbAXbZ96cK9V2UfbDPjrUCF35o.js line 1 > eval line 4008 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 0
+1645907296785	Marionette	INFO	Stopped listening on port 52196
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645907297237	geckodriver	INFO	Listening on 127.0.0.1:52453
+1645907298250	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile4MJ2D0"
+*** You are running in headless mode.
+1645907298605	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofile4MJ2D0/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645907299965	Marionette	INFO	Listening on port 52465
+1645907300024	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://rateyourmusic.com/release/album/earl-sweatshirt/some-rap-songs/, line 392: TypeError: n is null
+1645907345581	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645907367492	Marionette	INFO	Stopped listening on port 52465
+1645907367920	geckodriver	INFO	Listening on 127.0.0.1:52671
+1645907368926	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileqHHzr2"
+*** You are running in headless mode.
+1645907369283	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileqHHzr2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645907370597	Marionette	INFO	Listening on port 52679
+1645907370708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/05kIQc6ZjCDeVcvaFDIHfdUrkUN3zDfhnEVhslL3v5Y.js line 1 > eval line 2092 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645907478587	Marionette	INFO	Stopped listening on port 52679
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645907479053	geckodriver	INFO	Listening on 127.0.0.1:53039
+1645907480061	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileNjCup6"
+*** You are running in headless mode.
+1645907480421	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileNjCup6/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645907481816	Marionette	INFO	Listening on port 53047
+1645907481929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+1645908057380	geckodriver	INFO	Listening on 127.0.0.1:53417
+1645908058386	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileWb3FIG"
+*** You are running in headless mode.
+1645908058752	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileWb3FIG/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645908060105	Marionette	INFO	Listening on port 53424
+1645908060165	Marionette	WARN	TLS certificate errors will be ignored for this session
