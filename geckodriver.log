@@ -7268,3 +7268,102 @@ Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
 Exiting due to channel error.
+1645899042317	geckodriver	INFO	Listening on 127.0.0.1:51659
+1645899042339	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileqRp3iR"
+*** You are running in headless mode.
+1645899042968	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileqRp3iR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645899044342	Marionette	INFO	Listening on port 51668
+1645899044448	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645899274009	geckodriver	INFO	Listening on 127.0.0.1:51819
+1645899275029	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilePDtYXY"
+*** You are running in headless mode.
+1645899275566	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilePDtYXY/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645899277130	Marionette	INFO	Listening on port 51831
+1645899277220	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645899660617	geckodriver	INFO	Listening on 127.0.0.1:52214
+1645899661633	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilel8IU4d"
+*** You are running in headless mode.
+1645899662155	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilel8IU4d/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645899663667	Marionette	INFO	Listening on port 52225
+1645899663727	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 210: ReferenceError: $Y is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645899684108	geckodriver	INFO	Listening on 127.0.0.1:52325
+1645899684114	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileE4avUJ"
+*** You are running in headless mode.
+1645899684436	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileE4avUJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645899685607	Marionette	INFO	Listening on port 52330
+1645899685675	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ats.rlcdn.com/ats.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: , line 0: uncaught exception: 0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645899852371	geckodriver	INFO	Listening on 127.0.0.1:52459
+1645899852379	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileakY4EN"
+*** You are running in headless mode.
+1645899852721	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofileakY4EN/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645899853969	Marionette	INFO	Listening on port 52464
+1645899854047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 385: ReferenceError: $Y is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645899906027	geckodriver	INFO	Listening on 127.0.0.1:52566
+1645899906034	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilere44f9"
+*** You are running in headless mode.
+1645899906341	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/99/hdg8bhbx609dz7n1yvvr_cq9561nx1/T/rust_mozprofilere44f9/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1645899907597	Marionette	INFO	Listening on port 52571
+1645899907709	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 0
+JavaScript error: https://www.gstatic.com/charts/pre-45/loader.js line 243 > eval, line 1: ReferenceError: Mi is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -98,17 +98,22 @@ def getDescriptorVectors(listOfAlbums):
     listOfAlbums = listOfAlbums.reset_index()
 
     startFrom = 471
+    descriptorVal = 63  # Initializes first descriptor with weight 1.5, and last descriptor minimum 0.5
 
     for index, album in listOfAlbums.iterrows():
         if index >= startFrom:
             artist = album['Artist']
             albumTitle = album['Title']
             thisAlbumDescriptors = getAlbumDescriptors(artist, albumTitle)
+            print(thisAlbumDescriptors)
             albumDescVector = descriptors  # make a copy of overall descriptors (will set 0 or 1 to each value of descriptor)
+
+            thisAlbumDict = {k: v for v, k in enumerate(thisAlbumDescriptors)}  # Descriptor:Index pair dictionary for quick lookup
+            print(thisAlbumDict)
 
             for descriptor in albumDescVector.keys():
                 if descriptor in thisAlbumDescriptors:
-                    albumDescVector[descriptor] = 1
+                    albumDescVector[descriptor] = (descriptorVal - thisAlbumDict[descriptor]) / 42  # 42 is max number of descriptors for an album
                 else:
                     albumDescVector[descriptor] = 0
 
@@ -117,6 +122,7 @@ def getDescriptorVectors(listOfAlbums):
             allAlbumDescriptorValues.append(listValues)
 
             print(index, albumTitle, artist)
+            print(allAlbumDescriptorValues)
 
 
     columnNames = list(descriptors.keys())
@@ -140,6 +146,9 @@ def combineDataframes():
     allAlbumsDescriptorData.to_pickle("Recommender/all_albums_descriptor_data.pkl")
 
 #getAllDescriptors(albumsDataframe)
+
+
+getDescriptorVectors(albumsDataframe)
 
 #combineDataframes()
 
