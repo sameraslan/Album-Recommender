@@ -63,6 +63,7 @@ def recommend(albumsDataframe):
     while emptyIndex:
         albumInput = input("Album title: ")
         searchResult = albumsDataframe[albumsDataframe['Title'].str.contains(albumInput, na=False)]
+
         emptyIndex = searchResult.empty
 
         if not emptyIndex:
@@ -97,10 +98,11 @@ def recommend(albumsDataframe):
 
     albumValues = albumsDataframe.drop(['Title', 'Artist', 'URI', 'Descriptor Count', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms', 'time_signature'], axis = 1)
     albumValuesCols = albumValues.columns.tolist()
-    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / 6)  # Weighting of descriptors (higher we divide by, less weight)
+    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / 5.5)  # Weighting of descriptors (higher we divide by, less weight)
+
+    print("Max Descriptor Count", albumsDataframe['Descriptor Count'].max())
 
     albumValues = albumsDataframe.drop(['Unnamed: 0', 'Title', 'Artist', 'URI', 'Descriptor Count'], axis=1)
-    print(albumValues)
 
     # energy, key, mode, speechiness, liveness, tempo, duration_ms, time_signature important
     # acousticness, instrumentalness, valence, loudness maybe important
