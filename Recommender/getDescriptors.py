@@ -151,7 +151,7 @@ def combineDataframes():
 
 #getDescriptorVectors(albumsDataframe)
 
-combineDataframes()
+#combineDataframes()
 
 
 

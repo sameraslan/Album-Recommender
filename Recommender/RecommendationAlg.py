@@ -98,9 +98,9 @@ def recommend(albumsDataframe):
 
     albumValues = albumsDataframe.drop(['Title', 'Artist', 'URI', 'Descriptor Count', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms', 'time_signature'], axis = 1)
     albumValuesCols = albumValues.columns.tolist()
-    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / 5.5)  # Weighting of descriptors (higher we divide by, less weight)
+    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / 5)  # Weighting of descriptors (higher we divide by, less weight)
 
-    print("Max Descriptor Count", albumsDataframe['Descriptor Count'].max())
+    #print("Max Descriptor Count", albumsDataframe['Descriptor Count'].max())
 
     albumValues = albumsDataframe.drop(['Unnamed: 0', 'Title', 'Artist', 'URI', 'Descriptor Count'], axis=1)
 
@@ -115,9 +115,11 @@ def recommend(albumsDataframe):
     albumArtists = list(albumsDataframe['Artist'])  # List of album artists
     albumURIs = list(albumsDataframe['URI'])  # List of album artists
 
-    albumValues = albumValues.to_numpy(dtype=np.float32)  # np array of all audio metrics for albums
+    albumValues = albumValues.to_numpy(dtype=np.float32)  # np array of all features for albums
     similarAlbums = NearestNeighbors(n_neighbors=6, algorithm='auto').fit(albumValues)
     distances, indices = similarAlbums.kneighbors(albumValues)
+
+    #print(distances[userAlbumIndex])  # For debugging
 
     printSimilar(albumTitles, albumArtists, albumURIs, indices, userAlbumIndex)  # Print out similar albums
 
@@ -126,7 +128,7 @@ def main(argv):
     # Using unsupervised KNN to get similar albums (euclidean distance)
     albumsDataframe = pd.read_csv('Spotify API Connection/album_audio_feature_data.csv')
 
-    albumsDescriptorData = pd.read_pickle("Recommender/all_albums_descriptor_data.pkl")
+    albumsDescriptorData = pd.read_pickle("Recommender/all_albums_priori_descriptors.pkl")
     albumsDescriptorData.reset_index(drop=True, inplace=True)
 
     newAlbumDataframe = pd.concat([albumsDataframe, albumsDescriptorData], axis=1, join="inner")
