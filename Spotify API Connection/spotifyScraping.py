@@ -12,7 +12,6 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 artist_uri = '5LhTec3c7dcqBvpLRWbMcf'
 track_uri = 'spotify:track:36apwMphkcaS63LY3JJMPh'
-#album_uri = 'spotify:album:7GOdEIOvr41lvxDK7bvPrI'
 
 all_album_features = []
 all_album_names = []
@@ -20,34 +19,8 @@ all_album_artists = []
 all_album_uri = []
 
 df = pd.read_pickle("rymscraper-master/Scraped Data/top5000records.pkl")
-#df = df[686:]
 df.reset_index(inplace=True)
-#del df['Unnamed: 0']
-#del df['Rank']
 print(df)
-
-#Albums deleted (not in spotify) (index iloc based)
-# df = df.drop([54])  # King Crimson,The Great Deceiver: Live 1973-1974
-# df = df.drop([187])  # Joanna Newsom,Ys
-# df = df.drop([225])  # Electric Masada, At the Mountains of Madness
-# df = df.drop([239])  # Kraftwerk,Die Mensch-Maschine
-# df = df.drop([241])  # Shiro Sagisu,The End of Evangelion
-# df = df.drop([252])  # Les Rallizes dénudés,'77 Live
-# df = df.drop([310])  # David Wise,Donkey Kong Country 2: Diddy's Kong Quest
-# df = df.drop([323])  # 田中宏和 [Hirokazu Tanaka] & 鈴木慶一 [Keiichi Suzuki],Mother 2: ギーグの逆襲
-# df = df.drop([324])  # 近藤浩治 [Koji Kondo],ゼルダの伝説: ムジュラの仮面 (The Legend of Zelda: Majora's Mask)
-# df = df.drop([326])  # Staatsorchester Stuttgart,Tabula rasa
-# df = df.drop([375])  # Mario Galaxy Orchestra,Super Mario Galaxy
-# df = df.drop([381])  # Joanna Newsom,Have One on Me
-# df = df.drop([383])  # Boris,Flood
-# df = df.drop([384])  # Organized Konfusion,Stress: The Extinction Agenda
-# df = df.drop([390])  # 三宅優 [Yu Miyake],塊魂サウンドトラック「塊フォルテッシモ魂」 (Katamari Damacy Soundtrack: Katamari Fortissimo Damacy)
-#
-# #Albums deleted (not in spotify) (label loc based)
-# df = df.drop(431)  # Dinosaur   You're Living All Over Me
-# df = df.drop(434)  # Death Grips  Jenny Death: The Powers That B Disc 2
-# df = df.drop(436)  # 久石譲 [Joe Hisaishi] もののけ姫 (Mononoke-hime)
-# df = df.drop(451)  # Pink Floyd  Is There Anybody Out There? The Wall Live 1980-81
 
 sp.trace = False
 albumsNotFound = []
@@ -56,8 +29,8 @@ albumsNotFound = []
 #i and j are ranges of rows in df to search for albums
 def getAlbumsSpotifyData(df):
 
-    i = 2000
-    j = 3000
+    i = 4000
+    j = 6000
 
 
     # get the first album uri
@@ -140,16 +113,15 @@ def getAlbumsSpotifyData(df):
     print(album_data_dataframe)
 
     # Write to pkl
-    album_data_dataframe.to_pickle("Spotify API Connection/album_audio_features_2000-2999.pkl")
+    album_data_dataframe.to_pickle("Spotify API Connection/album_audio_features_4000-.pkl")
 
     print(albumsNotFound)
 
 
     #Finally, write to csv
-    export_filename = "albums_audio_feature_data_2000-2999"
+    export_filename = "albums_audio_feature_data_4000-"
     path = '/Users/saslan.19/Desktop/Programming/Music Recommendation/Spotify API Connection/'
     album_data_dataframe.to_csv(path + export_filename + ".csv")
 
 
 getAlbumsSpotifyData(df)
-
