@@ -29,7 +29,7 @@ albumsNotFound = []
 #i and j are ranges of rows in df to search for albums
 def getAlbumsSpotifyData(df):
 
-    i = 4000
+    i = 1000
     j = 6000
 
 
@@ -113,15 +113,20 @@ def getAlbumsSpotifyData(df):
     print(album_data_dataframe)
 
     # Write to pkl
-    album_data_dataframe.to_pickle("Spotify API Connection/album_audio_features_4000-.pkl")
+    album_data_dataframe.to_pickle("Spotify API Connection/album_audio_features_1000-.pkl")
 
     print(albumsNotFound)
 
 
     #Finally, write to csv
-    export_filename = "albums_audio_feature_data_4000-"
+    export_filename = "albums_audio_feature_data_1000-"
     path = '/Users/saslan.19/Desktop/Programming/Music Recommendation/Spotify API Connection/'
     album_data_dataframe.to_csv(path + export_filename + ".csv")
 
+def createNotFoundDataframe(notFound):
+    notFound = pd.DataFrame(np.array(notFound), columns=['Album', 'Artist'])
+    notFound.to_pickle("Spotify API Connection/notFound_1000-.pkl")
+    notFound.to_csv("Spotify API Connection/notFound_1000-.csv")
 
 getAlbumsSpotifyData(df)
+createNotFoundDataframe(albumsNotFound)
