@@ -18,9 +18,12 @@ all_album_names = []
 all_album_artists = []
 all_album_uri = []
 
-df = pd.read_pickle("rymscraper-master/Scraped Data/top5000records.pkl")
+#df = pd.read_pickle("rymscraper-master/Scraped Data/top5000records.pkl")
+df = pd.read_csv("Spotify API Connection/notFound.csv")
 df.reset_index(inplace=True)
 print(df)
+
+
 
 sp.trace = False
 albumsNotFound = []
@@ -29,8 +32,8 @@ albumsNotFound = []
 #i and j are ranges of rows in df to search for albums
 def getAlbumsSpotifyData(df):
 
-    i = 1000
-    j = 6000
+    i = 0
+    j = 20
 
 
     # get the first album uri
@@ -113,13 +116,13 @@ def getAlbumsSpotifyData(df):
     print(album_data_dataframe)
 
     # Write to pkl
-    album_data_dataframe.to_pickle("Spotify API Connection/album_audio_features_1000-.pkl")
+    album_data_dataframe.to_pickle("Spotify API Connection/found.pkl")
 
     print(albumsNotFound)
 
 
     #Finally, write to csv
-    export_filename = "albums_audio_feature_data_1000-"
+    export_filename = "found"
     path = '/Users/saslan.19/Desktop/Programming/Music Recommendation/Spotify API Connection/'
     album_data_dataframe.to_csv(path + export_filename + ".csv")
 
@@ -129,4 +132,4 @@ def createNotFoundDataframe(notFound):
     notFound.to_csv("Spotify API Connection/notFound_1000-.csv")
 
 getAlbumsSpotifyData(df)
-createNotFoundDataframe(albumsNotFound)
+#createNotFoundDataframe(albumsNotFound)

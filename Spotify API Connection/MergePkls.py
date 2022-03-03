@@ -7,5 +7,5 @@ def mergePkls(files, outputFile):
     df_merged.to_pickle(outputFile)
     #print(df_merged)
 
-files = ["notFound_0-999.pkl", "notFound_1000-.pkl"]
-mergePkls(files, "notFound.pkl")
+files = ["albums_audio_features.pkl", "found.pkl"]
+mergePkls(files, "albums_audio_features.pkl")

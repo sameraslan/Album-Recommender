@@ -2,7 +2,7 @@ import pandas as pd
 
 path = "/RYMScraper/Exports"
 #all_files = sorted(glob.glob(os.path.join(path, "*.csv")))
-all_files = ["albums_audio_feature_data_0-999.csv", "albums_audio_feature_data_1000-.csv"]
+all_files = ["albums_audio_feature_data.csv", "found.csv"]
 
 df_from_each_file = (pd.read_csv(f, sep=None) for f in all_files)
 df_merged = pd.concat(df_from_each_file, ignore_index=True)
