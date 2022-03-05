@@ -18,8 +18,7 @@ all_album_names = []
 all_album_artists = []
 all_album_uri = []
 
-#df = pd.read_pickle("rymscraper-master/Scraped Data/top5000records.pkl")
-df = pd.read_pickle("Recommender/albumsDataframe.pkl.csv")
+df = pd.read_pickle("rymscraper-master/Scraped Data/top5000records.pkl")
 df.reset_index(inplace=True)
 print(df)
 

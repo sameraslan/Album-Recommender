@@ -98,7 +98,7 @@ def getAllDescriptors(listOfAlbums):
 def getDescriptorVectors(listOfAlbums):
     listOfAlbums = listOfAlbums.reset_index()
 
-    startFrom = 901
+    startFrom = 1001
     end = 1600
     descriptorVal = 63  # Initializes first descriptor with weight 1.5, and last descriptor minimum 0.5
 
@@ -138,23 +138,25 @@ def getDescriptorVectors(listOfAlbums):
 
             print(finalDescriptorDataframe)
 
-            finalDescriptorDataframe.to_pickle("Recommender/descriptors_data_priori_901-.pkl")
-            finalDescriptorDataframe.to_csv("Recommender/descriptors_data_priori_901-.csv")
+            finalDescriptorDataframe.to_pickle("Recommender/descriptors_data_priori_1001-.pkl")
+            finalDescriptorDataframe.to_csv("Recommender/descriptors_data_priori_1001-.csv")
 
 
 def combineDataframes():
-    dfOne = pd.read_pickle("Recommender/descriptors_data_priori_0-99.pkl")
-    dfTwo = pd.read_pickle("Recommender/descriptors_data_priori_100-199.pkl")
-    dfThree = pd.read_pickle("Recommender/descriptors_data_priori_200-249.pkl")
-    dfFour = pd.read_pickle("Recommender/descriptors_data_priori_250-399.pkl")
-    dfFive = pd.read_pickle("Recommender/descriptors_data_priori_400-503.pkl")
+    dfOne = pd.read_pickle("Recommender/descriptors_data_priori_0-799.pkl")
+    dfTwo = pd.read_pickle("Recommender/descriptors_data_priori_800-1599.pkl")
+    dfThree = pd.read_pickle("Recommender/descriptors_data_priori_901-.pkl")
+    # dfFour = pd.read_pickle("Recommender/descriptors_data_priori_250-399.pkl")
+    # dfFive = pd.read_pickle("Recommender/descriptors_data_priori_400-503.pkl")
 
-    allAlbumsDescriptorData = pd.concat([dfOne, dfTwo, dfThree, dfFour, dfFive], axis=0)
+    allAlbumsDescriptorData = pd.concat([dfOne, dfTwo, dfThree], axis=0)
     allAlbumsDescriptorData.reset_index()
     print(allAlbumsDescriptorData)
 
-    allAlbumsDescriptorData.to_pickle("Recommender/all_albums_priori_descriptors.pkl")
+    allAlbumsDescriptorData.to_pickle("Recommender/descriptors_data_priori_0-1000.pkl")
 
 
 listOfAlbums = pd.read_pickle("Spotify API Connection/albums_audio_features.pkl")
 getDescriptorVectors(listOfAlbums)
+
+#combineDataframes()
