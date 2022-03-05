@@ -98,7 +98,7 @@ def getAllDescriptors(listOfAlbums):
 def getDescriptorVectors(listOfAlbums):
     listOfAlbums = listOfAlbums.reset_index()
 
-    startFrom = 800
+    startFrom = 901
     end = 1600
     descriptorVal = 63  # Initializes first descriptor with weight 1.5, and last descriptor minimum 0.5
 
@@ -131,15 +131,15 @@ def getDescriptorVectors(listOfAlbums):
             print(index, albumTitle, artist)
             #print(allAlbumDescriptorValues)
 
+        if index % 100 == 0:
+            columnNames = list(descriptors.keys())
+            columnNames.append("Descriptor Count")
+            finalDescriptorDataframe = pd.DataFrame(allAlbumDescriptorValues, columns=columnNames)
 
-    columnNames = list(descriptors.keys())
-    columnNames.append("Descriptor Count")
-    finalDescriptorDataframe = pd.DataFrame(allAlbumDescriptorValues, columns=columnNames)
+            print(finalDescriptorDataframe)
 
-    print(finalDescriptorDataframe)
-
-    finalDescriptorDataframe.to_pickle("Recommender/descriptors_data_priori_800-1599.pkl")
-    finalDescriptorDataframe.to_csv("Recommender/descriptors_data_priori_800-1599.csv")
+            finalDescriptorDataframe.to_pickle("Recommender/descriptors_data_priori_901-.pkl")
+            finalDescriptorDataframe.to_csv("Recommender/descriptors_data_priori_901-.csv")
 
 
 def combineDataframes():
