@@ -99,8 +99,8 @@ def getAllDescriptors(listOfAlbums):
 def getDescriptorVectors(listOfAlbums):
     listOfAlbums = listOfAlbums.reset_index()
     allAlbumDescriptorValues = []
-    startFrom = 1401
-    end = 1601
+    startFrom = 2001
+    end = 2501
     descriptorVal = 63  # Initializes first descriptor with weight 1.5, and last descriptor minimum 0.5
 
     for index, album in listOfAlbums.iterrows():
