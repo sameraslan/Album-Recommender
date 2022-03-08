@@ -98,11 +98,11 @@ def recommend(albumsDataframe):
 
     albumValues = albumsDataframe.drop(['Title', 'Artist', 'URI', 'Descriptor Count', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms', 'time_signature'], axis = 1)
     albumValuesCols = albumValues.columns.tolist()
-    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / 5)  # Weighting of descriptors (higher we divide by, less weight)
+    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / 5.5)  # Weighting of descriptors (higher we divide by, less weight)
 
     #print("Max Descriptor Count", albumsDataframe['Descriptor Count'].max())
 
-    albumValues = albumsDataframe.drop(['Unnamed: 0', 'Title', 'Artist', 'URI', 'Descriptor Count'], axis=1)
+    albumValues = albumsDataframe.drop(['Title', 'Artist', 'URI', 'Descriptor Count'], axis=1)
 
     # energy, key, mode, speechiness, liveness, tempo, duration_ms, time_signature important
     # acousticness, instrumentalness, valence, loudness maybe important
@@ -119,7 +119,7 @@ def recommend(albumsDataframe):
     similarAlbums = NearestNeighbors(n_neighbors=6, algorithm='auto').fit(albumValues)
     distances, indices = similarAlbums.kneighbors(albumValues)
 
-    #print(distances[userAlbumIndex])  # For debugging
+    print(distances[userAlbumIndex])  # For debugging
 
     printSimilar(albumTitles, albumArtists, albumURIs, indices, userAlbumIndex)  # Print out similar albums
 
@@ -156,13 +156,7 @@ def main():
     # all_data.to_csv('Recommender/all_data.csv')
 
     all_data = pd.read_pickle('Recommender/all_data.pkl')
-    print(all_data)
-
-
-    #print(newAlbumDataframe)
-    #newAlbumDataframe.to_csv("Recommender/newAlbumData.csv")
-
-    #recommend(newAlbumDataframe)
+    recommend(all_data)
 
     # Next step is to have a weighting of descriptors for each album by bins potentially or just by ordering
 
