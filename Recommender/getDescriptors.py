@@ -99,8 +99,8 @@ def getAllDescriptors(listOfAlbums):
 def getDescriptorVectors(listOfAlbums):
     listOfAlbums = listOfAlbums.reset_index()
     allAlbumDescriptorValues = []
-    startFrom = 2001
-    end = 2501
+    startFrom = 3200
+    end = 4001
     descriptorVal = 63  # Initializes first descriptor with weight 1.5, and last descriptor minimum 0.5
 
     for index, album in listOfAlbums.iterrows():
@@ -135,33 +135,35 @@ def getDescriptorVectors(listOfAlbums):
                 columnNames = list(descriptors.keys())
                 columnNames.append("Descriptor Count")
                 finalDescriptorDataframe = pd.DataFrame(allAlbumDescriptorValues, columns=columnNames)
-                dfOne = pd.read_pickle("Recommender/descriptors_data_priori_1001-.pkl")
+                dfOne = pd.read_pickle("Recommender/descriptors_data_priori_-4415.pkl")
     
                 finalDescriptorDataframe = pd.concat([dfOne, finalDescriptorDataframe], axis=0)
     
     
                 print(finalDescriptorDataframe)
     
-                finalDescriptorDataframe.to_pickle("Recommender/descriptors_data_priori_1001-.pkl")
-                finalDescriptorDataframe.to_csv("Recommender/descriptors_data_priori_1001-.csv")
+                finalDescriptorDataframe.to_pickle("Recommender/descriptors_data_priori_-4415.pkl")
+                finalDescriptorDataframe.to_csv("Recommender/descriptors_data_priori_-4415.csv")
     
                 allAlbumDescriptorValues = []  # Reset dataframe for next 100 albums
 
 
 def combineDataframes():
-    dfOne = pd.read_pickle("Recommender/descriptors_data_priori_0-799.pkl")
-    dfTwo = pd.read_pickle("Recommender/descriptors_data_priori_800-1599.pkl")
-    dfThree = pd.read_pickle("Recommender/descriptors_data_priori_901-.pkl")
+    dfOne = pd.read_pickle("Recommender/descriptors_data_priori_0-1000.pkl")
+    dfTwo = pd.read_pickle("Recommender/descriptors_data_priori_1001-.pkl")
+    # dfThree = pd.read_pickle("Recommender/descriptors_data_priori_901-.pkl")
     # dfFour = pd.read_pickle("Recommender/descriptors_data_priori_250-399.pkl")
     # dfFive = pd.read_pickle("Recommender/descriptors_data_priori_400-503.pkl")
 
-    allAlbumsDescriptorData = pd.concat([dfOne, dfTwo, dfThree], axis=0)
+    allAlbumsDescriptorData = pd.concat([dfOne, dfTwo], axis=0)
     allAlbumsDescriptorData.reset_index()
     print(allAlbumsDescriptorData)
 
-    allAlbumsDescriptorData.to_pickle("Recommender/descriptors_data_priori_0-1000.pkl")
+    allAlbumsDescriptorData.to_pickle("Recommender/descriptors_data_priori_-4415.pkl")
+    allAlbumsDescriptorData.to_pickle("Recommender/descriptors_data_priori_-4415.csv")
 
 
+#combineDataframes()
 listOfAlbums = pd.read_pickle("Spotify API Connection/albums_audio_features.pkl")
 getDescriptorVectors(listOfAlbums)
 
@@ -173,5 +175,3 @@ getDescriptorVectors(listOfAlbums)
 # dfOne = dfOne.drop(dfOne.index[200:400])
 # print(dfOne)
 # dfOne.to_pickle("Recommender/descriptors_data_priori_1001-.pkl")
-
-#combineDataframes()
