@@ -99,7 +99,7 @@ def getAllDescriptors(listOfAlbums):
 def getDescriptorVectors(listOfAlbums):
     listOfAlbums = listOfAlbums.reset_index()
     allAlbumDescriptorValues = []
-    startFrom = 3801
+    startFrom = 4401
     end = 4501
     descriptorVal = 63  # Initializes first descriptor with weight 1.5, and last descriptor minimum 0.5
 
@@ -131,7 +131,7 @@ def getDescriptorVectors(listOfAlbums):
 
             print(index, albumTitle, artist)
 
-            if index % 100 == 0:
+            if index % 4412 == 0:
                 columnNames = list(descriptors.keys())
                 columnNames.append("Descriptor Count")
                 finalDescriptorDataframe = pd.DataFrame(allAlbumDescriptorValues, columns=columnNames)
@@ -170,6 +170,7 @@ getDescriptorVectors(listOfAlbums)
 
 
 # dfTwo = pd.read_pickle("Recommender/descriptors_data_priori_-4415.pkl")
+# print(dfTwo)
 # dfTwo = dfTwo[:3201]  # Up to album with index 3200 in albums_audio_feature_data (row 3202 in csv)
 # dfTwo.to_pickle("Recommender/descriptors_data_priori_-4415.pkl")
 # dfTwo.to_csv("Recommender/descriptors_data_priori_-4415.csv")
