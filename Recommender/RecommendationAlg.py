@@ -55,7 +55,7 @@ def visualizeAlbums(uris, titles, artists):
 
     plt.show()
 
-
+# Using unsupervised KNN to get similar albums (euclidean distance)
 def recommend(albumsDataframe):
     # Get user album index
     userAlbumIndex = None
@@ -124,22 +124,48 @@ def recommend(albumsDataframe):
     printSimilar(albumTitles, albumArtists, albumURIs, indices, userAlbumIndex)  # Print out similar albums
 
 
-def main(argv):
-    # Using unsupervised KNN to get similar albums (euclidean distance)
-    albumsDataframe = pd.read_csv('Spotify API Connection/album_audio_feature_data.csv')
+def combineSpotifyWithDescriptors(spotifyPath, descriptorPath):
+    descriptorPath.reset_index(drop=True, inplace=True)  # Reset indices
 
-    albumsDescriptorData = pd.read_pickle("Recommender/all_albums_priori_descriptors.pkl")
-    albumsDescriptorData.reset_index(drop=True, inplace=True)
+    newAlbumDataframe = pd.concat([spotifyPath, descriptorPath], axis=1, join="inner")  # Join spotify and descriptor data
 
-    newAlbumDataframe = pd.concat([albumsDataframe, albumsDescriptorData], axis=1, join="inner")
+    newAlbumDataframe = removeBadRows(newAlbumDataframe)
+
+    return newAlbumDataframe
+
+def removeBadRows(df):
+    # Remove rows with no descriptors
+    indices = df.loc[df['Descriptor Count'] == 0].index
+    df.drop(indices, inplace=True)
+    df.reset_index(drop=True, inplace=True)
+
+    # Remove rows with no spotify audio features (sum of 0)
+    # This should not happen but just in case
+    indexNames = df[((df['danceability'] + df['energy'] + df['key'] + df['loudness'] + df['mode'] + df['speechiness'] + df['acousticness'] + df['instrumentalness'] + df['liveness'] + df['valence'] + df['tempo'] + df['duration_ms'] + df['time_signature']) == 0)].index
+    df.drop(indexNames, inplace=True)
+    df.reset_index(drop=True, inplace=True)
+
+    return df
+
+
+def main():
+    # spotifyData = pd.read_pickle('Spotify API Connection/albums_audio_features.pkl')
+    # descriptorData = pd.read_pickle("Recommender/descriptors_data_priori_-4415.pkl")
+    #
+    # all_data = combineSpotifyWithDescriptors(spotifyData, descriptorData)
+    # all_data.to_csv('Recommender/all_data.csv')
+
+    all_data = pd.read_pickle('Recommender/all_data.pkl')
+    print(all_data)
+
+
     #print(newAlbumDataframe)
     #newAlbumDataframe.to_csv("Recommender/newAlbumData.csv")
 
-    recommend(newAlbumDataframe)
+    #recommend(newAlbumDataframe)
 
     # Next step is to have a weighting of descriptors for each album by bins potentially or just by ordering
 
 
-
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    main()
