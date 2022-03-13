@@ -98,7 +98,10 @@ def recommend(albumsDataframe):
 
     albumValues = albumsDataframe.drop(['Title', 'Artist', 'URI', 'Descriptor Count', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms', 'time_signature'], axis = 1)
     albumValuesCols = albumValues.columns.tolist()
-    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / 5.5)  # Weighting of descriptors (higher we divide by, less weight)
+
+    # Weighting of descriptors (greater b, less weight)
+    b = 5
+    albumsDataframe[albumValuesCols] = albumValues[albumValuesCols].apply(lambda x: x / b)
 
     #print("Max Descriptor Count", albumsDataframe['Descriptor Count'].max())
 
