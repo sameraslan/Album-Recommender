@@ -81,7 +81,7 @@ def plotAlbums(coordinates):
 
 
     plot = Plot(
-        title=None, x_range=xdr, y_range=ydr, width=3000, height=3000,
+        title=None, x_range=xdr, y_range=ydr, width=6000, height=6000,
         min_border=0, toolbar_location=None)
 
     for i in range(len(coordinates)):
